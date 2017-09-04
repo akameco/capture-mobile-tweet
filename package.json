@@ -1,6 +1,6 @@
 {
   "name": "capture-mobile-tweet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Caputre mobile tweet",
   "license": "MIT",
   "repository": "akameco/capture-mobile-tweet",
@@ -18,8 +18,16 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "files": ["index.js"],
-  "keywords": ["puppeteer", "capture", "element", "mobiletweet", "tweet"],
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "puppeteer",
+    "capture",
+    "element",
+    "mobiletweet",
+    "tweet"
+  ],
   "dependencies": {
     "capture-element": "^0.2.1"
   },
