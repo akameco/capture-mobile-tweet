@@ -1,0 +1,37 @@
+{
+  "name": "capture-mobile-tweet",
+  "version": "0.1.0",
+  "description": "Caputre mobile tweet",
+  "license": "MIT",
+  "repository": "akameco/capture-mobile-tweet",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "engines": {
+    "node": ">=6.10"
+  },
+  "scripts": {
+    "prettier": "prettier --write '**/*.js'",
+    "lint": "eslint .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "files": ["index.js"],
+  "keywords": ["puppeteer", "capture", "element", "mobiletweet", "tweet"],
+  "dependencies": {
+    "capture-element": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.6.0",
+    "eslint-config-precure": "^0.8.0",
+    "flow-bin": "^0.54.0",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
+    "prettier": "^1.6.1"
+  }
+}
